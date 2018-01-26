@@ -12,7 +12,7 @@ id int(10) UNSIGNED AUTO_INCREMENT,
 username varchar(255) NOT NULL,
 mykey varchar(255) NOT NULL,
 value varchar(255) NOT NULL,
-PRIMARY KEY (`id`)
+PRIMARY KEY (id)
 );
 
 ENGINE=InnoDB DEFAULT CHARSET=latin1";
