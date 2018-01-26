@@ -7,16 +7,15 @@
  */
 
 
-
-
-CREATE TABLE Message (
--> id int(10) NOT NULL,
-->  username varchar(255) NOT NULL,
-->  mykey varchar(255) NOT NULL,
-->  value varchar(255) NOT NULL
+$sql = "CREATE TABLE Message (
+id int(10) UNSIGNED AUTO_INCREMENT,
+username varchar(255) NOT NULL,
+mykey varchar(255) NOT NULL,
+value varchar(255) NOT NULL,
+PRIMARY KEY (`id`)
 );
 
-ENGINE=InnoDB DEFAULT CHARSET=latin1;
+ENGINE=InnoDB DEFAULT CHARSET=latin1";
 
 
 
